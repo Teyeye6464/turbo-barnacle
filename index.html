@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WalletConnect Example</title>
+</head>
+<body>
+    <h1>Подключение кошелька через WalletConnect</h1>
+    <button id="connectButton" aria-label="Подключить кошелек через WalletConnect">Подключить кошелек</button>
+    <p id="accountInfo" style="color: green; font-size: 1.2em;"></p>
+
+    <!-- Подключаем WalletConnect и Ethers.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/client@1.7.1/dist/umd/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+    <!-- Подключаем наш скрипт -->
+    <script src="script.js" defer></script>
+</body>
+</html>
